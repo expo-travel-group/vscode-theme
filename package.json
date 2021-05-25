@@ -1,0 +1,26 @@
+{
+    "name": "etg-theme",
+    "displayName": "ETG Theme",
+    "description": "Dark theme based on Darcula IntelliJ Theme",
+    "version": "0.0.1",
+    "icon": "icons/thumbnail.png",
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "author": {
+        "name": "ETG Dev team",
+        "email": "admin@expobeds.com"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "ETG Dracula Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/ETG Dracula Theme-color-theme.json"
+            }
+        ]
+    }
+}
